@@ -40,8 +40,7 @@ user.on('loggedOn', () => {
  var password3 = process.env.password3;
  var shared_secret3 = process.env.shared3;
 
- var games3 = [10 ,753 ,730 ,440 ,1850740 ,239140 ,1551360 ,1274570 ,1549180 ,304930 ,438100 ,302830 ,1782210 ,113400 ,273350 ,363970 ,1049410 ,298110 ,438740 ,1341290 ,865360 ,43110 ,939960 ,714010 ,218 ,49520 ,80 ,578080 ,939850 ,232090 ,301520 ,10 ,224260];  // Enter here AppIDs of the needed games
- var status3 = 1;  // 1 - online, 7 - invisible
+ var games3 = [753 ,730 ,364]
 
 
  user3 = new steamUser();
